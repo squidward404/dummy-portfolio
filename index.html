@@ -3,132 +3,189 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Befikir Shimelis | Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
 
-    <h1>Befikir Shimelis</h1>
-    <p>Software Engineering student and a full stack web developer.</p>
+    <header>
+        <h1>Befikir Shimelis</h1>
+        <img src="images/profile.jpg" alt="Befikir Shimelis profile photo" title="Befikir Shimelis" width="200" height="200">
 
-    <p>
-        <a href="#about">About</a> |
-        <a href="#skills">Skills</a> |
-        <a href="#projects">Projects</a> |
-        <a href="#education">Education</a> |
-        <a href="#contact">Contact</a> |
-        <a href="projects.html">All Projects</a>
-    </p>
+        <p>Software Engineering student and a full stack web developer.</p>
 
-    <hr>
-
-    <h2 id="about">About Me</h2>
-    <p>
-        I am a 3<sup>rd</sup> year <strong>Software Engineering</strong> student.
-        I <em>really</em> enjoy building websites, and I am
-        <mark>a full-stack web developer</mark>.
-    </p>
-
-    <p>
-        Languages I have used: <b>Python</b>, <b>C++</b>, <b>Bash</b>,
-        <b>C</b> <i>and</i> JavaScript.
-    </p>
-
-    <p>Fun fact: I drink 2 litres of H<sub>2</sub>O while coding every day.</p>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a> |
+            <a href="projects.html">All Projects</a>
+        </nav>
+    </header>
 
     <hr>
 
-    <h2>What Inspires Me</h2>
-    <blockquote>
-        “The best way to predict the future is to invent it.” — Alan Kay
-    </blockquote>
+    <main>
 
-    <p>My teacher always says <q>practice beats theory</q>, so I code every day.</p>
-    <p>Book I am reading: <cite>Clean Code</cite> by Robert C. Martin</p>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a 3rd year Software Engineering student at Addis Ababa
+                Science and Technology University. I enjoy building websites
+                and learning new technologies. I am also a full stack web developer.
+            </p>
 
-    <hr>
+            <p>
+                I have experience with programming languages such as Python,
+                C++, Bash, C and JavaScript.
+            </p>
 
-    <h2 id="skills">Skills</h2>
-    <p>My skills list will go here (Lab 6).</p>
+            <p>
+                <strong>Fun fact:</strong> I drink 2 litres of H<sub>2</sub>O
+                while coding.
+            </p>
 
-    <hr>
+            <blockquote>
+                "The best way to predict the future is to invent it."
+                <br>
+                — Alan Kay
+            </blockquote>
 
-    <h2 id="projects">Projects</h2>
+            <p>My teacher always says, <q>practice beats theory</q>.</p>
 
-    <h3>WIFI Crasher</h3>
-    <p>A WIFI security testing tool written in Python.</p>
+            <p>
+                Currently reading <cite>Clean Code</cite> by Robert C. Martin.
+            </p>
+        </section>
 
-    <h3>Project Delta</h3>
-    <p>A sophisticated network scanner and DNS tracker tool written in C++.</p>
+        <hr>
 
-    <h3>Dino Game</h3>
-    <p>Dino game written in C++.</p>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>My skills list will be added in Lab 6.</p>
+        </section>
 
-    <h3>Campus Cashmap</h3>
-    <p>A simple PWA to help students track their expenses.</p>
+        <hr>
 
-    <p><a href="projects.html">See all my projects</a></p>
+        <section id="projects">
+            <h2>Projects</h2>
 
-    <h3>My First Program</h3>
-    <p>
-        The first thing I wrote in Python was
-        <code>print("Hello, World!")</code>.
-        Later I wrote this loop:
-    </p>
+            <h3>WIFI Crasher</h3>
+            <img src="images/project-wifi-crasher.png" alt="WIFI Crasher project screenshot" width="300">
+            <p>A WiFi security testing tool written in Python.</p>
 
-    <pre><code>for i in range(3):
-    print("Hello", i)
-</code></pre>
+            <h3>Project Delta</h3>
+            <img src="images/project-delta.png" alt="Project Delta screenshot" width="300">
+            <p>A sophisticated network scanner and DNS tracker written in C++.</p>
 
-    <h2>My C++ Program</h2>
-    <p>Here is a simple C++ program that prints numbers from 1 to 5:</p>
+            <h3>Dino Game</h3>
+            <img src="images/project-dino-game.png" alt="Dino Game screenshot" width="300">
+            <p>A dinosaur game developed using C++.</p>
 
-    <pre><code>#include &lt;iostream&gt;
+            <h3>Campus Cashmap</h3>
+            <img src="images/project-campus-cashmap.png" alt="Campus Cashmap screenshot" width="300">
+            <p>A simple Progressive Web App that helps students track their expenses.</p>
+
+            <p><a href="projects.html">See all my projects</a></p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Code Samples</h2>
+
+            <h3>Python</h3>
+            <pre><code>for i in range(3):
+    print("Hello", i)</code></pre>
+
+            <h3>C++</h3>
+            <pre><code>#include &lt;iostream&gt;
 using namespace std;
 
 int main() {
     for (int i = 1; i &lt;= 5; i++) {
-        cout &lt;&lt; "Hello, World! " &lt;&lt; i &lt;&lt; endl;
+        cout &lt;&lt; i &lt;&lt; endl;
     }
 
     return 0;
-}
-</code></pre>
+}</code></pre>
+        </section>
+
+        <hr>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>BSc in Software Engineering</strong></p>
+            <p>Addis Ababa Science and Technology University</p>
+            <p>2023 - Present</p>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>Location: Addis Ababa, Ethiopia</p>
+
+            <p>
+                Email:
+                <a href="mailto:befikirshimelis20@gmail.com">befikirshimelis20@gmail.com</a>
+            </p>
+
+            <p>
+                Phone:
+                <a href="tel:0966734773">0966734773</a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/squidward404">GitHub Profile</a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/befikir-shimelis">LinkedIn Profile</a>
+            </p>
+
+            <p>
+                <a href="files/cv.pdf" download>Download My CV</a>
+            </p>
+
+            <h3>Connect With Me</h3>
+
+            <img src="images/connect-banner.png"
+                 usemap="#connectmap"
+                 alt="Connect banner: GitHub, LinkedIn, Email"
+                 width="600"
+                 height="200">
+
+            <map name="connectmap">
+                <area shape="rect"
+                      coords="20,40,180,160"
+                      href="https://github.com/squidward404"
+                      alt="GitHub">
+
+                <area shape="circle"
+                      coords="300,100,70"
+                      href="https://www.linkedin.com/in/befikir-shimelis"
+                      alt="LinkedIn">
+
+                <area shape="rect"
+                      coords="420,40,580,160"
+                      href="mailto:befikirshimelis20@gmail.com"
+                      alt="Email">
+            </map>
+        </section>
+
+    </main>
 
     <hr>
 
-    <h2 id="education">Education</h2>
-    <h3>BSc in Software Engineering</h3>
-    <p>Addis Ababa Science and Technology University, 2023 – present</p>
-
-    <hr>
-
-    <h2 id="contact">Contact</h2>
-
-    <p>
-        Address:<br>
-        Addis Ababa,<br>
-        Ethiopia
-    </p>
-
-    <p>Email: <a href="mailto:YOUR_EMAIL@example.com">befikirshimelis20@gmail.com</a></p>
-
-    <p>Phone: <a href="tel:+251966734565">+251 966734565</a></p>
-
-    <p>
-        GitHub:
-        <a href="https://github.com/squidward404">github.com/squidward404</a>
-    </p>
-
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/squidward404">
-            LinkedIn Profile
-        </a>
-    </p>
-
-    <p>
-        <a href="files/cv.pdf" download>Download my CV (PDF)</a>
-    </p>
+    <footer>
+        <p>&copy; 2026 Befikir Shimelis. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
