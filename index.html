@@ -139,23 +139,6 @@
                 <dt>Git and GitHub</dt>
                 <dd>Tools I use to manage and share my projects.</dd>
             </dl>
-
-            <h3>Skill Levels</h3>
-
-            <p>
-                <label for="lvl-html">HTML</label>
-                <meter id="lvl-html" value="0.8" min="0" max="1">80%</meter>
-            </p>
-
-            <p>
-                <label for="lvl-python">Python</label>
-                <meter id="lvl-python" value="0.7" min="0" max="1">70%</meter>
-            </p>
-
-            <p>
-                <label for="lvl-js">JavaScript</label>
-                <meter id="lvl-js" value="0.2" min="0" max="1" low="0.3" high="0.7" optimum="1">20%</meter>
-            </p>
         </section>
 
         <section id="projects">
@@ -163,33 +146,41 @@
 
             <article>
                 <h3>WIFI Crasher</h3>
+
                 <img src="images/project-wifi-crasher.png"
                      alt="WIFI Crasher project screenshot"
                      width="300">
+
                 <p>A Python-based tool for Wi-Fi security testing.</p>
             </article>
 
             <article>
                 <h3>Project Delta</h3>
+
                 <img src="images/project-delta.png"
                      alt="Project Delta screenshot"
                      width="300">
+
                 <p>A network scanner and DNS tracker developed using C++.</p>
             </article>
 
             <article>
                 <h3>Dino Game</h3>
+
                 <img src="images/project-dino-game.png"
                      alt="Dino Game screenshot"
                      width="300">
+
                 <p>A simple dinosaur game developed using C++.</p>
             </article>
 
             <article>
                 <h3>Campus Cashmap</h3>
+
                 <img src="images/project-campus-cashmap.png"
                      alt="Campus Cashmap screenshot"
                      width="300">
+
                 <p>A simple PWA that helps students track their expenses.</p>
             </article>
 
@@ -203,10 +194,7 @@
 
             <h3>BSc in Software Engineering</h3>
 
-            <p>
-                Addis Ababa Science and Technology University
-            </p>
-
+            <p>Addis Ababa Science and Technology University</p>
             <p>2023 - Present</p>
 
             <h3>Academic Record</h3>
@@ -275,12 +263,6 @@
                     </tr>
                 </tfoot>
             </table>
-
-            <p>
-                <label for="degree">Degree progress:</label>
-                <progress id="degree" value="40" max="100">40%</progress>
-                40%
-            </p>
         </section>
 
         <section id="contact">
@@ -339,6 +321,58 @@
                       href="mailto:befikirshimelis20@gmail.com"
                       alt="Email">
             </map>
+
+            <h3>Send Me a Message</h3>
+
+            <form action="thank-you.html" method="get">
+
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname">
+
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <label for="reason">Reason for contacting me:</label>
+
+                    <select id="reason" name="reason">
+                        <optgroup label="Work">
+                            <option value="internship">Internship offer</option>
+                            <option value="freelance">Freelance project</option>
+                            <option value="job">Full-time job</option>
+                        </optgroup>
+
+                        <optgroup label="Study">
+                            <option value="group-project">Group project</option>
+                            <option value="tutoring">Tutoring</option>
+                        </optgroup>
+
+                        <option value="other">Other</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="message">Message:</label>
+                    <br>
+
+                    <textarea id="message"
+                              name="message"
+                              rows="6"
+                              cols="40"></textarea>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear</button>
+
+            </form>
         </section>
 
     </main>
