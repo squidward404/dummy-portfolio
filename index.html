@@ -1,8 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Befikir Shimelis, Software Engineering student and full stack web developer in Addis Ababa.">
+    <meta name="keywords" content="Befikir Shimelis, portfolio, software engineering, web developer, HTML, Python, C++, JavaScript">
+    <meta name="author" content="Befikir Shimelis">
     <title>Befikir Shimelis | Portfolio</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
@@ -10,6 +14,13 @@
 
     <header>
         <h1>Befikir Shimelis</h1>
+
+        <img src="images/profile.jpg"
+             alt="Befikir Shimelis profile photo"
+             title="Befikir Shimelis"
+             width="200"
+             height="200">
+
         <p>Software Engineering student and a full stack web developer.</p>
 
         <nav>
@@ -18,27 +29,20 @@
             <a href="#roadmap">Learning Roadmap</a> |
             <a href="#projects">Projects</a> |
             <a href="#education">Education</a> |
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contact</a> |
+            <a href="projects.html">All Projects</a>
         </nav>
     </header>
-
-    <hr>
 
     <main>
 
         <section id="about">
             <h2>About Me</h2>
 
-            <img src="images/profile.jpg"
-                 alt="Befikir Shimelis profile photo"
-                 title="Befikir Shimelis"
-                 width="200"
-                 height="200">
-
             <p>
-                I am a 3rd year Software Engineering student at Addis Ababa
-                Science and Technology University. I enjoy building websites
-                and developing software applications.
+                I am a 3rd year Software Engineering student at
+                Addis Ababa Science and Technology University.
+                I enjoy building websites and developing software applications.
             </p>
 
             <p>
@@ -52,9 +56,22 @@
             <h3>Fun Fact</h3>
             <p>I drink around 2 litres of H<sub>2</sub>O while coding.</p>
 
-            <h3>Favorite Quote</h3>
+            <h3>Currently Reading</h3>
+            <p><cite>Clean Code</cite> by Robert C. Martin.</p>
+
+            <p>
+                My favourite tag is &lt;main&gt;, because it tells the browser
+                where the important content is and helps screen readers.
+            </p>
+        </section>
+
+        <aside>
+            <h2>What Inspires Me</h2>
+
             <blockquote>
-                <p>"The best way to predict the future is to invent it."</p>
+                <p>
+                    "The best way to predict the future is to invent it."
+                </p>
                 <cite>Alan Kay</cite>
             </blockquote>
 
@@ -62,14 +79,7 @@
                 <p>"Practice beats theory."</p>
                 <cite>My teacher</cite>
             </blockquote>
-
-            <h3>Currently Reading</h3>
-            <p>
-                <cite>Clean Code</cite> by Robert C. Martin.
-            </p>
-        </section>
-
-        <hr>
+        </aside>
 
         <section id="skills">
             <h2>Skills</h2>
@@ -106,8 +116,6 @@
             </ul>
         </section>
 
-        <hr>
-
         <section id="roadmap">
             <h2>My Learning Roadmap</h2>
 
@@ -131,49 +139,74 @@
                 <dt>Git and GitHub</dt>
                 <dd>Tools I use to manage and share my projects.</dd>
             </dl>
-        </section>
 
-        <hr>
+            <h3>Skill Levels</h3>
+
+            <p>
+                <label for="lvl-html">HTML</label>
+                <meter id="lvl-html" value="0.8" min="0" max="1">80%</meter>
+            </p>
+
+            <p>
+                <label for="lvl-python">Python</label>
+                <meter id="lvl-python" value="0.7" min="0" max="1">70%</meter>
+            </p>
+
+            <p>
+                <label for="lvl-js">JavaScript</label>
+                <meter id="lvl-js" value="0.2" min="0" max="1" low="0.3" high="0.7" optimum="1">20%</meter>
+            </p>
+        </section>
 
         <section id="projects">
             <h2>My Projects</h2>
 
-            <h3>WIFI Crasher</h3>
-            <img src="images/project-wifi-crasher.png"
-                 alt="WIFI Crasher project screenshot"
-                 width="300">
-            <p>A Python-based tool for Wi-Fi security testing.</p>
+            <article>
+                <h3>WIFI Crasher</h3>
+                <img src="images/project-wifi-crasher.png"
+                     alt="WIFI Crasher project screenshot"
+                     width="300">
+                <p>A Python-based tool for Wi-Fi security testing.</p>
+            </article>
 
-            <h3>Project Delta</h3>
-            <img src="images/project-delta.png"
-                 alt="Project Delta screenshot"
-                 width="300">
-            <p>A network scanner and DNS tracker developed using C++.</p>
+            <article>
+                <h3>Project Delta</h3>
+                <img src="images/project-delta.png"
+                     alt="Project Delta screenshot"
+                     width="300">
+                <p>A network scanner and DNS tracker developed using C++.</p>
+            </article>
 
-            <h3>Dino Game</h3>
-            <img src="images/project-dino-game.png"
-                 alt="Dino Game screenshot"
-                 width="300">
-            <p>A simple dinosaur game developed using C++.</p>
+            <article>
+                <h3>Dino Game</h3>
+                <img src="images/project-dino-game.png"
+                     alt="Dino Game screenshot"
+                     width="300">
+                <p>A simple dinosaur game developed using C++.</p>
+            </article>
 
-            <h3>Campus Cashmap</h3>
-            <img src="images/project-campus-cashmap.png"
-                 alt="Campus Cashmap screenshot"
-                 width="300">
-            <p>A simple PWA that helps students track their expenses.</p>
+            <article>
+                <h3>Campus Cashmap</h3>
+                <img src="images/project-campus-cashmap.png"
+                     alt="Campus Cashmap screenshot"
+                     width="300">
+                <p>A simple PWA that helps students track their expenses.</p>
+            </article>
 
             <p>
                 <a href="projects.html">See all my projects</a>
             </p>
         </section>
 
-        <hr>
-
         <section id="education">
             <h2>Education</h2>
 
             <h3>BSc in Software Engineering</h3>
-            <p>Addis Ababa Science and Technology University</p>
+
+            <p>
+                Addis Ababa Science and Technology University
+            </p>
+
             <p>2023 - Present</p>
 
             <h3>Academic Record</h3>
@@ -242,20 +275,26 @@
                     </tr>
                 </tfoot>
             </table>
-        </section>
 
-        <hr>
+            <p>
+                <label for="degree">Degree progress:</label>
+                <progress id="degree" value="40" max="100">40%</progress>
+                40%
+            </p>
+        </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
 
-            <p>Email:
+            <p>
+                Email:
                 <a href="mailto:befikirshimelis20@gmail.com">
                     befikirshimelis20@gmail.com
                 </a>
             </p>
 
-            <p>Phone:
+            <p>
+                Phone:
                 <a href="tel:0966734773">0966734773</a>
             </p>
 
@@ -302,35 +341,10 @@
             </map>
         </section>
 
-        <hr>
-
-        <section>
-            <h2>Code Samples</h2>
-
-            <h3>Python</h3>
-            <pre><code>for i in range(3):
-    print("Hello", i)</code></pre>
-
-            <h3>C++</h3>
-            <pre><code>#include &lt;iostream&gt;
-using namespace std;
-
-int main() {
-    for (int i = 1; i &lt;= 5; i++) {
-        cout &lt;&lt; i &lt;&lt; endl;
-    }
-
-    return 0;
-}</code></pre>
-        </section>
-
     </main>
-
-    <hr>
 
     <footer>
         <p>&copy; 2026 Befikir Shimelis. All rights reserved.</p>
-        <p><a href="#top">Back to top</a></p>
     </footer>
 
 </body>
